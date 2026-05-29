@@ -1,0 +1,15 @@
+3. Save this file inside your main project folder and name it exactly **`.gitignore`** (Make sure it doesn’t end in `.txt`).
+
+*What this does:* It acts like an invisibility cloak. When you upload your project to GitHub, Git will completely ignore the `src` folder and pretend it doesn't exist.
+
+---
+
+### Step 3: Upload to GitHub
+Open your terminal/command prompt, go to your project folder, and run your usual Git commands:
+
+```bash
+git init
+git add .
+git commit -m "Uploading website"
+git remote add origin YOUR_GITHUB_LINK_HERE
+git push -u origin main
